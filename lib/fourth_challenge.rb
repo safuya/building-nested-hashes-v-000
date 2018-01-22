@@ -1,6 +1,6 @@
 def fourth_challenge
   epic_tragedy = {
-   :montague => {
+    :montague => {
       :patriarch => {name: "Lord Montague", age: "53"},
       :matriarch => {name: "Lady Montague", age: "54"},
       :hero => {name: "Romeo", age: "15", status: "alive"},
@@ -10,20 +10,17 @@ def fourth_challenge
       ]
    },
    :capulet => {
-      :patriarch => {name: "Lord Capulet", age: "50"},
-      :matriarch => {name: "Lady Capulet", age: "51"},
-      :heroine => {name: "Juliet", age: "15", status: "alive"},
-      :heroine_friends => [
-        {name: "Steven", age: "30", attitude: "confused"},
-        {name: "Nurse", age: "44", attitude: "worried"}
-      ]
+     :patriarch => {name: "Lord Capulet", age: "50"},
+     :matriarch => {name: "Lady Capulet", age: "51"},
+     :heroine => {name: "Juliet", age: "15", status: "alive"},
+     :heroine_friends => [
+       {name: "Steven", age: "30", attitude: "confused"},
+       {name: "Nurse", age: "44", attitude: "worried"}
+     ]
    }
-
-   epic_tragedy[:montague][:hero][:status] = "dead"
-   epic_tragedy[:capulet][:heroine][:status] = "dead"
-   epic_tragedy
-}
-
-
+  }
+  epic_tragedy[:montague][:hero][:status] = "dead"
+  epic_tragedy[:capulet][:heroine][:status] = "dead"
+  epic_tragedy
 
 end
